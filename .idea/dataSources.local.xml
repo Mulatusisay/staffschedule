@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - etdb@localhost" uuid="5dd2c4dd-c7a2-4fe8-954e-f1dfc7944ead">
+      <secret-storage>master_key</secret-storage>
+      <user-name>mulatu</user-name>
+      <schema-pattern>etdb.pg_catalog etdb.public</schema-pattern>
+      <default-schemas>etdb.pg_catalog etdb.public</default-schemas>
+    </data-source>
+  </component>
+</project>
