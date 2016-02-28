@@ -13,7 +13,6 @@ class User implements Serializable {
 	boolean accountLocked
 	boolean passwordExpired
 
-
 	User(String username, String password) {
 		this()
 		this.username = username
@@ -60,7 +59,8 @@ class User implements Serializable {
 		password blank: false
 	}
 
-	static mapping = {
-		password column: '`password`'
-	}
+    static mapping = {
+        table '`user`'
+        password column: '`password`'
+    }
 }
